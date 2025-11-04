@@ -19,6 +19,7 @@ export default function Header() {
             <NavLink href="/">Home</NavLink>
             <NavLink href="/animes">Animes</NavLink>
             <NavLink href="/animes/novo">Cadastrar</NavLink>
+            <NavLink href="https://github.com/jorgehenriique"></NavLink>
 
             <LoginButton onClick={() => setShowLogin(true)}>
               <FaUserCircle size={26} />
